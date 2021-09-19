@@ -2,8 +2,8 @@ import classes from './Auth.module.css';
 import { useState } from 'react';
 import axios from 'axios';
 import './cursor.css'
+import { ip } from '../config/constants';
 
-const ip = "http://localhost:5000/api/users";
 
 const Auth = () => {
 
@@ -35,10 +35,10 @@ const Auth = () => {
       })
     }
     else {
-      await axios.post(`${ip}/register`, obj).then((res)=>{
-      console.log(res.data)
-    })
-  }
+      await axios.post(`${ip}/register`, obj).then((res) => {
+        console.log(res.data)
+      })
+    }
 
     console.log('else');
     setpass('');
