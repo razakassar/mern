@@ -17,7 +17,6 @@ const Auth = () => {
 
   const fun2 = async () => {
     if (pass != pass1 && pass1.length > 0) {
-      //setarr3(!arr3);
       setpass1('');
       console.log('if here');
       return false
