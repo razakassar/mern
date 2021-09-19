@@ -2,7 +2,7 @@ import classes from './Auth.module.css';
 import { useState } from 'react';
 import axios from 'axios';
 import './cursor.css'
-import { ip } from '../config/constants';
+import { ip_address as ip } from '../config/constants';
 
 
 const Auth = () => {

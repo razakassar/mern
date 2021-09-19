@@ -1,1 +1,1 @@
-export default ip = "http://localhost:5000/api/users";
+export default ip_address = "http://localhost:5000/api/users";
